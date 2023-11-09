@@ -1,0 +1,28 @@
+button{
+    width: 3em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    margin: 1px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.calculator{
+    background-color: black;
+    border-radius: 1em;
+    padding: 30px;
+    width: 30%;
+    margin-left: 32%;
+    margin-top: 5%;
+
+}
+
+.display{
+    color: white;
+    display: flex;
+    margin-right: 1em;
+    font-size:3.5em;
+}

@@ -1,0 +1,25 @@
+
+.calculator {
+    text-align: center; 
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px;
+  }
+  
+  
+  .button {
+    background-color: #1e2432; 
+    color: #ffffff;
+    border: 2px solid #ffffff; 
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .equal{
+    grid-column: span 2;
+    background-color: blueviolet;
+}  
